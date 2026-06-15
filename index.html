@@ -1,0 +1,154 @@
+<!-- index.html - Home Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>TastePal | Modern Restaurant</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/color/48/restaurant.png" type="image/x-icon">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="container nav-container">
+        <a href="index.html" class="logo">
+            <i class="fas fa-utensils"></i>
+            <span>TastePal</span>
+        </a>
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><button class="dark-toggle" id="darkModeBtn"><i class="fas fa-moon"></i> Dark</button></li>
+        </ul>
+    </div>
+</nav>
+
+<main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Welcome to TastePal</h1>
+                <p>Where flavor meets passion. Sizzling BBQ, authentic pizzas, gourmet burgers & more.</p>
+                <a href="menu.html" class="btn-primary">Explore Our Menu <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Dishes -->
+    <section class="featured-section">
+        <div class="container">
+            <h2 class="section-title">🔥 Featured Dishes</h2>
+            <div class="dishes-grid" id="featuredGrid"></div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="features-section">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Fresh Ingredients</h3>
+                    <p>Farm-to-table quality, sourced daily from local farms.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-chef"></i>
+                    <h3>Master Chefs</h3>
+                    <p>Michelin-star experienced culinary artists.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Fast Delivery</h3>
+                    <p>30-minute delivery or it's on us.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-heart"></i>
+                    <h3>Loved by Many</h3>
+                    <p>10,000+ happy customers and growing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">What Our Guests Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Best burgers in town! Amazing ambiance and friendly staff."</p>
+                    <h4>- Sarah Johnson</h4>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"The BBQ platter is a must-try. Incredible service every time."</p>
+                    <h4>- Mike Thompson</h4>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Cozy vibe and delicious pizzas. Will definitely come again!"</p>
+                    <h4>- Linda Garcia</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <i class="fas fa-utensils"></i>
+                <h3>TastePal</h3>
+                <p>Savor the Moment</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Flavor Avenue, NY</p>
+                <p><i class="fas fa-phone"></i> +1 (555) 789-1234</p>
+                <p><i class="fas fa-envelope"></i> hello@tastepal.com</p>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 TastePal. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<div class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+</div>
+
+<script src="js/main.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>
